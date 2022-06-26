@@ -1,0 +1,20 @@
+.place__website_link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-top: 12px;
+    /*border: 1px solid hotpink;*/
+  }
+
+  .place__website_link:hover {
+    opacity: 0.5;
+    transition: opacity linear;
+  }
+
+  @media screen and (max-width: 767px) {
+    .place__website_link {
+      padding-left: 16px;
+    }
+  } 

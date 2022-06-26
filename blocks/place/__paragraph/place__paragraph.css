@@ -1,0 +1,42 @@
+.place__paragraph {
+  grid-area: paragraph;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 26px 0 0 0;
+  max-width: 484px;
+  /*border: 1px solid lawngreen;*/
+  
+  }
+
+  .place__paragraph:first-of-type {
+    margin-top: 0;
+  }
+
+  @media screen and (max-width: 1279px) {
+    .place__paragraph {
+      max-width: 456px;
+    }
+  } 
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+      margin: 25px 0 0 0;
+      max-width: 352px;
+      font-size: 16px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .place__paragraph {
+      max-width: 288px;
+      margin: 25px auto 0;
+      
+    }
+  } 
+
+
+
+

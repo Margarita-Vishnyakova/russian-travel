@@ -1,0 +1,33 @@
+.page {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    color: #FFFFFF;
+    background-color: #2A2C2F;
+    margin: 0 auto;
+    max-width: 1280px;
+    min-width: 320px;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 1279px) {
+    .page {
+      max-width: 1024px;
+    }
+  } 
+
+@media screen and (max-width: 1023px) {
+    .page {
+      max-width: 768px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .page {
+      max-width: 320px;
+    }
+  } 
