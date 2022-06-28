@@ -6,13 +6,14 @@
     line-height: 28px;
     text-align: right;
     text-decoration: none;
-    margin: 0;
+    margin: 0 18px 0 0; /*я не очень поняла приложенный скрин, у меня не отображается задвоенная EnEn, только En как по макету"*/
+    text-decoration-line: underline;
     /*border: 1px solid red;*/
 }
 
-.header__lang-link:first-child {
-    margin-right: 18px;
-    text-decoration-line: underline;
+.header__lang-link:last-of-type {
+    margin: 0;
+    text-decoration-line: none;
   }
 
 .header__lang-link:hover {

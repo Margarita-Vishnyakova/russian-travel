@@ -1,4 +1,4 @@
-.place__website_link {
+.place__link {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -8,13 +8,13 @@
     /*border: 1px solid hotpink;*/
   }
 
-  .place__website_link:hover {
+  .place__link:hover {
     opacity: 0.5;
     transition: opacity linear;
   }
 
   @media screen and (max-width: 767px) {
-    .place__website_link {
+    .place__link {
       padding-left: 16px;
     }
   } 

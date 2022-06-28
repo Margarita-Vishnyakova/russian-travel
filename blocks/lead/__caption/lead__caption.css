@@ -11,3 +11,16 @@
     margin-left: 0;
     /*border: 1px solid fuchsia;*/
 }
+  
+  @media screen and (max-width: 1023px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
+    
+  }
+  
+  @media screen and (max-width: 767px) {
+    .lead__caption {
+      margin-left: 16px;
+    }
+  } 
